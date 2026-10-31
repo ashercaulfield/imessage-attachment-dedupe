@@ -29,15 +29,6 @@ What it deliberately does **not** do:
 
 - macOS, Python 3 (preinstalled — no dependencies to install)
 
-## Setup
-
-**To check for duplicates** (no special permissions needed): copy the
-Attachments folder in Finder to e.g. your Desktop, then:
-
-```sh
-python3 imessage_dedupe.py --dry-run --root ~/Desktop/Attachments
-```
-
 **To collapse duplicates in place**, macOS requires two one-time steps:
 
 1. Quit the Messages app.
